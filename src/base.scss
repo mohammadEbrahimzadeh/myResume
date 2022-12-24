@@ -1,0 +1,94 @@
+@font-face {
+  font-family: IranSans;
+  src: url(/src/Fonts/IranSansX/Webfonts/fonts/woff/IRANSansX-Medium.woff);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: IranSans;
+}
+
+html,
+body {
+  position: relative;
+}
+
+body {
+  // background: rgb(1, 2, 22);
+  min-height: 200px;
+  background: rgb(2, 2, 36);
+  background-repeat: no-repeat;
+  background: rgb(5, 5, 47);
+  background: no-repeat linear-gradient(177deg, rgb(1, 1, 46) 31%, rgb(2, 2, 27) 77%);
+  height: 100%;
+  color: white;
+}
+button {
+  background-color: rgb(16, 160, 112);
+  color: white;
+  transition: 0.3s;
+  border-radius: 8px;
+  border: none;
+  &:hover {
+    color: black;
+    background-color: white;
+    box-shadow: rgb(62, 111, 163) 0px 1.5vw 2vw -10px;
+  }
+}
+@media only screen and (max-width: 578px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+  li {
+    font-size: 0.8rem;
+  }
+  button {
+    font-size: 0.7rem;
+  }
+  .CallMe {
+    li {
+      font-size: 1rem;
+    }
+  }
+}
+@media only screen and (min-width: 579px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+  li {
+    font-size: 1.1rem;
+  }
+  button {
+    font-size: 0.9rem;
+  }
+  .CallMe {
+    li {
+      font-size: 1.7rem;
+    }
+  }
+}
+@import "Components/Header/_Header";
+@import "Components/AboutMe/_AboutMe";
+@import "Components/Skills/_Skills";
+@import "Components/MyPriject/_MyPriject";
+@import "Components/CallMe/_CallMe";

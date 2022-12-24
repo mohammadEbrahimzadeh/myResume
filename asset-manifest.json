@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/myresume/static/css/main.d0d012b8.css",
+    "main.js": "/myresume/static/js/main.a0368843.js",
+    "static/media/kasuka.png": "/myresume/static/media/kasuka.d864dfcdd34d2aaafafb.png",
+    "static/media/im250db.png": "/myresume/static/media/im250db.0ec97615a1769d3de60d.png",
+    "static/media/trademan.png": "/myresume/static/media/trademan.5be9d9686241d74fd942.png",
+    "static/media/2.jpg": "/myresume/static/media/2.881343fcb9e6840f86bf.jpg",
+    "static/media/ebrahimzadehk2_.jpg": "/myresume/static/media/ebrahimzadehk2_.319f116b0c56ada6d056.jpg",
+    "static/media/IRANSansX-Medium.woff": "/myresume/static/media/IRANSansX-Medium.8e098ba93873ea906446.woff",
+    "index.html": "/myresume/index.html",
+    "main.d0d012b8.css.map": "/myresume/static/css/main.d0d012b8.css.map",
+    "main.a0368843.js.map": "/myresume/static/js/main.a0368843.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0d012b8.css",
+    "static/js/main.a0368843.js"
+  ]
+}

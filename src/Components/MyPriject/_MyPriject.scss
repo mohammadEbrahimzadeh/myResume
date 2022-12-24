@@ -1,0 +1,64 @@
+.MyPriject {
+  .projectCard {
+    transition: 0.5s;
+    position: relative;
+    background-color: rgba(16, 16, 53, 0.322);
+    .overlayCard {
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.199);
+      z-index: 10;
+      right: 0;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      align-items: center;
+      justify-content: center;
+      display: none;
+      transition: 0.5s;
+    }
+    ul {
+      direction: rtl;
+      list-style: none;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      .overlayCard {
+        display: flex;
+      }
+    }
+  }
+  .kasuka {
+    li {
+      &::before {
+        content: "●";
+        color: rgb(251, 255, 0);
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 1vw;
+      }
+    }
+  }
+  .trademan {
+    li {
+      &::before {
+        content: "●";
+        color: rgb(35, 140, 226);
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 1vw;
+      }
+    }
+  }
+  .im250db {
+    li {
+      &::before {
+        content: "●";
+        color: rgb(190, 195, 199);
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 1vw;
+      }
+    }
+  }
+}

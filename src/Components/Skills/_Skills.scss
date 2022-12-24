@@ -1,0 +1,181 @@
+.Skills {
+  .right {
+    ul {
+      background-color: rgba(2, 2, 24, 0.706);
+    }
+  }
+  .left {
+    .viewElemHtml {
+      height: 4px;
+      transition: 1s;
+      background-color: rgb(226, 114, 22);
+      -webkit-animation-name: viewElemHtml;
+      animation-name: viewElemHtml;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    .viewElemcss {
+      height: 4px;
+      transition: 1s;
+      background-color: aqua;
+      -webkit-animation-name: viewElemcss;
+      animation-name: viewElemcss;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    .viewElemsass {
+      height: 4px;
+      transition: 1s;
+      background-color: rgb(189, 35, 60);
+      -webkit-animation-name: viewElemsass;
+      animation-name: viewElemsass;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    .viewElemBootsratp {
+      height: 4px;
+      transition: 1s;
+      background-color: rgb(98, 5, 185);
+      -webkit-animation-name: viewElemBootsratp;
+      animation-name: viewElemBootsratp;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    .viewElemjs {
+      height: 4px;
+      transition: 1s;
+      background-color: rgb(214, 228, 18);
+      -webkit-animation-name: viewElemjs;
+      animation-name: viewElemjs;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    .viewElemReact {
+      height: 4px;
+      transition: 1s;
+      background-color: rgb(35, 56, 245);
+      -webkit-animation-name: viewElemReact;
+      animation-name: viewElemReact;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  @-webkit-keyframes viewElemHtml {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  @keyframes viewElemHtml {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  @-webkit-keyframes viewElemcss {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  @keyframes viewElemcss {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  @-webkit-keyframes viewElemsass {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  @keyframes viewElemsass {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+}
+@-webkit-keyframes viewElemBootsratp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes viewElemBootsratp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes viewElemjs {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes viewElemjs {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes viewElemReact {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes viewElemReact {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}

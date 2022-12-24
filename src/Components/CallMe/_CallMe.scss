@@ -1,0 +1,13 @@
+.CallMe {
+  li {
+    a {
+      font-size: var(--fontXl);
+      color: white;
+      transition: 0.2s;
+      &:hover {
+        color: goldenrod;
+        box-shadow: rgb(62, 111, 163) 0px 1.5vw 2vw -10px;
+      }
+    }
+  }
+}

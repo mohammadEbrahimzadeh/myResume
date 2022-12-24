@@ -1,0 +1,283 @@
+@charset "UTF-8";
+@font-face {
+  font-family: IranSans;
+  src: url(/src/Fonts/IranSansX/Webfonts/fonts/woff/IRANSansX-Medium.woff);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: IranSans;
+}
+
+html,
+body {
+  position: relative;
+}
+
+body {
+  min-height: 200px;
+  background: #020224;
+  background-repeat: no-repeat;
+  background: #05052f;
+  background: no-repeat linear-gradient(177deg, #01012e 31%, #02021b 77%);
+  height: 100%;
+  color: white;
+}
+
+button {
+  background-color: #10a070;
+  color: white;
+  transition: 0.3s;
+  border-radius: 8px;
+  border: none;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+  box-shadow: #3e6fa3 0px 1.5vw 2vw -10px;
+}
+
+@media only screen and (max-width: 578px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  li {
+    font-size: 0.8rem;
+  }
+  button {
+    font-size: 0.7rem;
+  }
+  .CallMe li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 579px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  li {
+    font-size: 1.1rem;
+  }
+  button {
+    font-size: 0.9rem;
+  }
+  .CallMe li {
+    font-size: 1.7rem;
+  }
+}
+
+.Header img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.AboutMe .divImoji {
+  font-size: var(--fontMdBold);
+  color: #189af0;
+}
+
+.AboutMe .right img {
+  border-radius: 50%;
+}
+
+.Skills .right ul {
+  background-color: rgba(2, 2, 24, 0.706);
+}
+
+.Skills .left .viewElemHtml {
+  height: 4px;
+  transition: 1s;
+  background-color: #e27216;
+  animation-name: viewElemHtml;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.Skills .left .viewElemcss {
+  height: 4px;
+  transition: 1s;
+  background-color: aqua;
+  animation-name: viewElemcss;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.Skills .left .viewElemsass {
+  height: 4px;
+  transition: 1s;
+  background-color: #bd233c;
+  animation-name: viewElemsass;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.Skills .left .viewElemBootsratp {
+  height: 4px;
+  transition: 1s;
+  background-color: #6205b9;
+  animation-name: viewElemBootsratp;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.Skills .left .viewElemjs {
+  height: 4px;
+  transition: 1s;
+  background-color: #d6e412;
+  animation-name: viewElemjs;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.Skills .left .viewElemReact {
+  height: 4px;
+  transition: 1s;
+  background-color: #2338f5;
+  animation-name: viewElemReact;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes viewElemHtml {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes viewElemcss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes viewElemsass {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes viewElemBootsratp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes viewElemjs {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes viewElemReact {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.MyPriject .projectCard {
+  transition: 0.5s;
+  position: relative;
+  background-color: rgba(16, 16, 53, 0.322);
+}
+
+.MyPriject .projectCard .overlayCard {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.199);
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  transition: 0.5s;
+}
+
+.MyPriject .projectCard ul {
+  direction: rtl;
+  list-style: none;
+}
+
+.MyPriject .projectCard:hover {
+  transform: scale(1.05);
+}
+
+.MyPriject .projectCard:hover .overlayCard {
+  display: flex;
+}
+
+.MyPriject .kasuka li::before {
+  content: "●";
+  color: #fbff00;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 1vw;
+}
+
+.MyPriject .trademan li::before {
+  content: "●";
+  color: #238ce2;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 1vw;
+}
+
+.MyPriject .im250db li::before {
+  content: "●";
+  color: #bec3c7;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 1vw;
+}
+
+.CallMe li a {
+  font-size: var(--fontXl);
+  color: white;
+  transition: 0.2s;
+}
+
+.CallMe li a:hover {
+  color: goldenrod;
+  box-shadow: #3e6fa3 0px 1.5vw 2vw -10px;
+}
+/*# sourceMappingURL=base.css.map */
