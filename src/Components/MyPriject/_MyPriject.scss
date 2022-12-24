@@ -50,11 +50,23 @@
       }
     }
   }
-  .im250db {
+  .im250db,
+  .targetFire {
     li {
       &::before {
         content: "●";
         color: rgb(190, 195, 199);
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 1vw;
+      }
+    }
+  }
+  .targetFire {
+    li {
+      &::before {
+        content: "●";
+        color: red;
         font-weight: bold;
         display: inline-block;
         margin-left: 1vw;

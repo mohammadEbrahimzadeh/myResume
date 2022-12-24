@@ -11,7 +11,7 @@ export default function MyPriject() {
               key={index}
               className={`${item.ClassNames} col-sm-5  col-12 projectCard  d-flex flex-column  justify-content-center align-items-center gap-3  `}
             >
-              <img src={item.cover} className="w-100" alt="8" />
+              <img src={item.cover} className="w-100" alt="Loading" />
               <h3 className="text-end">{item.title}</h3>
               <ul className="text-end   col-11 col-sm-10">
                 {item.technologies.map((liElm, index) => {

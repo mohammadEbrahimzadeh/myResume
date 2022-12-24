@@ -1,11 +1,7 @@
-// import kasuka from "./img/kasuka.png";
-// import trademan from "./img/trademan.png";
-// import im250db from "./img/im250db.png";
-
 const MyProjects = [
   {
     title: "وب سایت شرکتی کاسوکا",
-    technologies: ["Html & Css", "Responsive Design", "React.Js Modular"],
+    technologies: ["Html & Css", "Sass", "Responsive Design", "React.Js Modular"],
     cover: process.env.PUBLIC_URL + "/images/kasuka.png",
     link: "https://mohammadebrahimzadeh.github.io/kasuka/",
     Completed: true,
@@ -15,6 +11,7 @@ const MyProjects = [
     title: "صرافی انلاین تریدمن",
     technologies: [
       "Html & Css",
+      "Sass",
       "Responsive Design",
       "React.Js Modular",
       "SPA Page",
@@ -29,6 +26,7 @@ const MyProjects = [
     title: "im250db سایت فیلم و سریال ",
     technologies: [
       "Html & Css",
+      "Sass",
       "Responsive Design",
       "React.Js Modular",
       "SPA Page",
@@ -37,8 +35,38 @@ const MyProjects = [
     ],
     cover: process.env.PUBLIC_URL + "/images/im250db.png",
     link: "https://mohammadebrahimzadeh.github.io/im250db/",
-    Completed: false,
+    Completed: true,
     ClassNames: "im250db",
+  },
+  {
+    title: "نرم افزار بادخوانی",
+    technologies: [
+      "Html & Css",
+      "Sass",
+      "Responsive Design",
+      "SPA Page",
+      "شبیه ساز واقعی تیراندازی",
+    ],
+    cover: process.env.PUBLIC_URL + "/images/targetFire.png",
+    link: "https://target-fire.vercel.app/",
+    Completed: true,
+    ClassNames: "targetFire",
+  },
+  {
+    title: "دیجیکالا",
+    technologies: [
+      "Html & Css",
+      "Sass",
+      "Responsive Design",
+      "React.Js Modular",
+      "SPA Page",
+      "Digikala APi",
+      "BackEnd",
+    ],
+    cover: process.env.PUBLIC_URL + "/images/Digikala.png",
+    link: "https://digikala-k2.vercel.app/",
+    Completed: false,
+    ClassNames: "Digikala",
   },
 ];
 export default MyProjects;

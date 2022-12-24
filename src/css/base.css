@@ -262,9 +262,18 @@ button:hover {
   margin-left: 1vw;
 }
 
-.MyPriject .im250db li::before {
+.MyPriject .im250db li::before,
+.MyPriject .targetFire li::before {
   content: "●";
   color: #bec3c7;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 1vw;
+}
+
+.MyPriject .targetFire li::before {
+  content: "●";
+  color: red;
   font-weight: bold;
   display: inline-block;
   margin-left: 1vw;
