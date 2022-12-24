@@ -64,6 +64,10 @@ export default function Skills() {
             <h3 className="text-end">کاردانی کامپیوتر</h3>
             <p className="text-end w-100">کرج - دانشگاه فنی حرفه ای شهید بهشتی</p>
           </li>
+          <li className=" w-100 gap-sm-3 d-flex flex-column">
+            <h3 className="text-end">دانشجو کارشناسی کامپیوتر</h3>
+            <p className="text-end w-100">کرج - دانشگاه فنی حرفه ای شهید بهشتی</p>
+          </li>
         </ul>
       </div>
     </div>
