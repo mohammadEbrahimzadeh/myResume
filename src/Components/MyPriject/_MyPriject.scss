@@ -73,4 +73,74 @@
       }
     }
   }
+  .play-film-for-student {
+    li {
+      &::before {
+        content: "●";
+        color: rgb(57, 54, 54);
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 1vw;
+      }
+    }
+  }
+  .price-guns {
+    li {
+      &::before {
+        content: "●";
+        color: rgb(216, 101, 30);
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 1vw;
+      }
+    }
+  }
+  .Insurance-dey {
+    li {
+      &::before {
+        content: "●";
+        color: rgb(10, 191, 231);
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 1vw;
+      }
+    }
+  }
+}
+
+.baseClassPageNaite {
+  font-size: 1.1rem;
+  text-decoration: none;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0s;
+
+  // ----------------
+  border-radius: 51%;
+  width: calc(12rem / 6);
+  height: calc(12rem / 6);
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 251, 0, 0.789);
+  border-radius: 51%;
+  transition: 0s;
+
+  &:hover {
+    border: 2px solid red;
+    color: rgb(0, 0, 0);
+  }
+}
+.activePage {
+  border-radius: 51%;
+
+  color: white;
+  background-color: red;
+  border-radius: 51%;
+  transition: 0s;
+  &:hover {
+    border: 2px solid rgba(239, 255, 12, 0.616);
+    color: rgb(255, 255, 255);
+    border-radius: 51%;
+  }
 }

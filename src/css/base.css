@@ -3,7 +3,6 @@
   font-family: IranSans;
   src: url(/src/Fonts/IranSansX/Webfonts/fonts/woff/IRANSansX-Medium.woff);
 }
-
 * {
   padding: 0;
   margin: 0;
@@ -16,27 +15,25 @@ body {
 }
 
 body {
-  min-height: 200px;
-  background: #020224;
+  background: rgb(2, 2, 36);
   background-repeat: no-repeat;
-  background: #05052f;
-  background: no-repeat linear-gradient(177deg, #01012e 31%, #02021b 77%);
+  background: rgb(5, 5, 47);
+  background: no-repeat linear-gradient(177deg, rgb(1, 1, 46) 31%, rgb(2, 2, 27) 77%);
   height: 100%;
   color: white;
 }
 
 button {
-  background-color: #10a070;
+  background-color: rgb(16, 160, 112);
   color: white;
   transition: 0.3s;
   border-radius: 8px;
   border: none;
 }
-
 button:hover {
   color: black;
   background-color: white;
-  box-shadow: #3e6fa3 0px 1.5vw 2vw -10px;
+  box-shadow: rgb(62, 111, 163) 0px 1.5vw 2vw -10px;
 }
 
 @media only screen and (max-width: 578px) {
@@ -62,7 +59,6 @@ button:hover {
     font-size: 1rem;
   }
 }
-
 @media only screen and (min-width: 579px) {
   h1 {
     font-size: 1.9rem;
@@ -86,7 +82,6 @@ button:hover {
     font-size: 1.7rem;
   }
 }
-
 .Header img {
   border-radius: 50%;
   width: 100%;
@@ -94,9 +89,8 @@ button:hover {
 
 .AboutMe .divImoji {
   font-size: var(--fontMdBold);
-  color: #189af0;
+  color: rgb(24, 154, 240);
 }
-
 .AboutMe .right img {
   border-radius: 50%;
 }
@@ -104,62 +98,44 @@ button:hover {
 .Skills .right ul {
   background-color: rgba(2, 2, 24, 0.706);
 }
-
-.Skills .left .viewElemHtml {
-  height: 4px;
-  transition: 1s;
-  background-color: #e27216;
-  animation-name: viewElemHtml;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-
-.Skills .left .viewElemcss {
-  height: 4px;
-  transition: 1s;
-  background-color: aqua;
-  animation-name: viewElemcss;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-
-.Skills .left .viewElemsass {
-  height: 4px;
-  transition: 1s;
-  background-color: #bd233c;
-  animation-name: viewElemsass;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-
-.Skills .left .viewElemBootsratp {
-  height: 4px;
-  transition: 1s;
-  background-color: #6205b9;
-  animation-name: viewElemBootsratp;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-
-.Skills .left .viewElemjs {
-  height: 4px;
-  transition: 1s;
-  background-color: #d6e412;
-  animation-name: viewElemjs;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-
+.Skills .left .viewElemHtml,
+.Skills .left .viewElemcss,
+.Skills .left .viewElemsass,
+.Skills .left .viewElemBootsratp,
+.Skills .left .viewElemjs,
+.Skills .left .viewElemAxios,
+.Skills .left .viewElemSwiper,
 .Skills .left .viewElemReact {
   height: 4px;
   transition: 1s;
-  background-color: #2338f5;
-  animation-name: viewElemReact;
+  -webkit-animation-name: viewElem;
+  animation-name: viewElem;
+  -webkit-animation-duration: 2s;
   animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-
-@keyframes viewElemHtml {
+.Skills .left .viewElemHtml {
+  background-color: rgb(226, 114, 22);
+}
+.Skills .left .viewElemcss {
+  background-color: aqua;
+}
+.Skills .left .viewElemsass {
+  background-color: rgb(189, 35, 60);
+}
+.Skills .left .viewElemBootsratp,
+.Skills .left .viewElemAxios {
+  background-color: rgb(98, 5, 185);
+}
+.Skills .left .viewElemjs {
+  background-color: rgb(214, 228, 18);
+}
+.Skills .left .viewElemSwiper,
+.Skills .left .viewElemReact {
+  background-color: rgb(35, 56, 245);
+}
+@-webkit-keyframes viewElem {
   0% {
     width: 0%;
   }
@@ -167,44 +143,7 @@ button:hover {
     width: 100%;
   }
 }
-
-@keyframes viewElemcss {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-@keyframes viewElemsass {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-@keyframes viewElemBootsratp {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-@keyframes viewElemjs {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-@keyframes viewElemReact {
+@keyframes viewElem {
   0% {
     width: 0%;
   }
@@ -218,7 +157,6 @@ button:hover {
   position: relative;
   background-color: rgba(16, 16, 53, 0.322);
 }
-
 .MyPriject .projectCard .overlayCard {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.199);
@@ -232,45 +170,38 @@ button:hover {
   display: none;
   transition: 0.5s;
 }
-
 .MyPriject .projectCard ul {
   direction: rtl;
   list-style: none;
 }
-
 .MyPriject .projectCard:hover {
   transform: scale(1.05);
 }
-
 .MyPriject .projectCard:hover .overlayCard {
   display: flex;
 }
-
 .MyPriject .kasuka li::before {
   content: "●";
-  color: #fbff00;
+  color: rgb(251, 255, 0);
   font-weight: bold;
   display: inline-block;
   margin-left: 1vw;
 }
-
 .MyPriject .trademan li::before {
   content: "●";
-  color: #238ce2;
+  color: rgb(35, 140, 226);
   font-weight: bold;
   display: inline-block;
   margin-left: 1vw;
 }
-
 .MyPriject .im250db li::before,
 .MyPriject .targetFire li::before {
   content: "●";
-  color: #bec3c7;
+  color: rgb(190, 195, 199);
   font-weight: bold;
   display: inline-block;
   margin-left: 1vw;
 }
-
 .MyPriject .Digikala li::before {
   content: "●";
   color: red;
@@ -278,15 +209,68 @@ button:hover {
   display: inline-block;
   margin-left: 1vw;
 }
+.MyPriject .play-film-for-student li::before {
+  content: "●";
+  color: rgb(57, 54, 54);
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 1vw;
+}
+.MyPriject .price-guns li::before {
+  content: "●";
+  color: rgb(216, 101, 30);
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 1vw;
+}
+.MyPriject .Insurance-dey li::before {
+  content: "●";
+  color: rgb(10, 191, 231);
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 1vw;
+}
+
+.baseClassPageNaite {
+  font-size: 1.1rem;
+  text-decoration: none;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0s;
+  border-radius: 51%;
+  width: 2rem;
+  height: 2rem;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 251, 0, 0.789);
+  border-radius: 51%;
+  transition: 0s;
+}
+.baseClassPageNaite:hover {
+  border: 2px solid red;
+  color: rgb(0, 0, 0);
+}
+
+.activePage {
+  border-radius: 51%;
+  color: white;
+  background-color: red;
+  border-radius: 51%;
+  transition: 0s;
+}
+.activePage:hover {
+  border: 2px solid rgba(239, 255, 12, 0.616);
+  color: rgb(255, 255, 255);
+  border-radius: 51%;
+}
 
 .CallMe li a {
   font-size: var(--fontXl);
   color: white;
   transition: 0.2s;
 }
-
 .CallMe li a:hover {
   color: goldenrod;
-  box-shadow: #3e6fa3 0px 1.5vw 2vw -10px;
-}
-/*# sourceMappingURL=base.css.map */
+  box-shadow: rgb(62, 111, 163) 0px 1.5vw 2vw -10px;
+}/*# sourceMappingURL=base.css.map */

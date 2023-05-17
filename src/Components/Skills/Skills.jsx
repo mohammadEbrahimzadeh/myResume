@@ -19,37 +19,41 @@ export default function Skills() {
           {" "}
           <h3 className="text-start">Html</h3>
           <div className={` ${inView ? "viewElemHtml" : ""}`}> </div>{" "}
-          <h3 className="text-end p-0 pt-2 m-0 ">پیشرفته</h3>
         </div>{" "}
         <div className="col-10 ">
           {" "}
           <h3>Css</h3>
           <div className={` ${inView ? "viewElemcss" : ""}`}></div>{" "}
-          <h3 className="text-end p-0 pt-2 m-0 ">پیشرفته</h3>
         </div>{" "}
         <div className="col-10 ">
           {" "}
           <h3>Sass</h3>
           <div className={` ${inView ? "viewElemsass" : ""}`}></div>{" "}
-          <h3 className="text-end p-0 pt-2 m-0 ">پیشرفته</h3>
         </div>
         <div className="col-10 ">
           {" "}
           <h3>BootStrap</h3>
           <div className={` ${inView ? "viewElemBootsratp" : ""}`}></div>{" "}
-          <h3 className="text-end p-0 pt-2 m-0 ">پیشرفته</h3>
         </div>
         <div className="col-10 ">
           {" "}
           <h3>JS</h3>
           <div className={` ${inView ? "viewElemjs" : ""}`}></div>{" "}
-          <h3 className="text-end p-0 pt-2 m-0 ">پیشرفته</h3>
+        </div>{" "}
+        <div className="col-10 ">
+          {" "}
+          <h3>swiper</h3>
+          <div className={` ${inView ? "viewElemSwiper" : ""}`}></div>{" "}
+        </div>{" "}
+        <div className="col-10 ">
+          {" "}
+          <h3>Axios</h3>
+          <div className={` ${inView ? "viewElemAxios" : ""}`}></div>{" "}
         </div>{" "}
         <div className="col-10 ">
           {" "}
           <h3>React</h3>
           <div className={` ${inView ? "viewElemReact" : ""}`}></div>{" "}
-          <h3 className="text-end p-0 pt-2 m-0 ">پیشرفته</h3>
         </div>
       </div>{" "}
       <div className="right col-12 col-sm-5 mt-2 gap-3 d-flex align-items-end justify-content-center flex-column  align-self-start ">
