@@ -2,7 +2,7 @@
   .projectCard {
     transition: 0.5s;
     position: relative;
-    background-color: rgba(16, 16, 53, 0.322);
+    background-color: rgba(59, 4, 131, 0.421);
     .overlayCard {
       position: absolute;
       background-color: rgba(255, 255, 255, 0.199);
@@ -100,6 +100,17 @@
       &::before {
         content: "●";
         color: rgb(10, 191, 231);
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 1vw;
+      }
+    }
+  }
+  .weather {
+    li {
+      &::before {
+        content: "●";
+        color: rgb(131, 201, 217);
         font-weight: bold;
         display: inline-block;
         margin-left: 1vw;

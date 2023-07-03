@@ -1,13 +1,98 @@
 .CallMe {
-  li {
-    a {
-      font-size: var(--fontXl);
-      color: white;
-      transition: 0.2s;
-      &:hover {
-        color: goldenrod;
-        box-shadow: rgb(62, 111, 163) 0px 1.5vw 2vw -10px;
+  position: fixed;
+  right: 3%;
+  bottom: 5%;
+  z-index: 10000;
+  button {
+    border-radius: 51%;
+    width: calc(20rem / 6);
+    height: calc(20rem / 6);
+  }
+  .containerMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .menu {
+      overflow: hidden;
+      top: -11.3rem;
+      position: absolute;
+      transform: rotate(-90deg);
+    }
+    .mainDivMenu {
+      width: 0%;
+      opacity: 0;
+      border-radius: 25px;
+      background-color: rgba(151, 10, 151, 0.774);
+      .itemSocial {
+        transform: rotate(90deg);
+        font-size: 1.5rem;
+        a {
+          color: white;
+          transition: 0.3s;
+          &:hover {
+            color: goldenrod;
+          }
+        }
       }
     }
+  }
+}
+.openMenu {
+  width: 0%;
+  -webkit-animation: openMenuAnime 1s forwards;
+  animation: openMenuAnime 1s forwards;
+}
+.closeMenu {
+  width: 100%;
+  -webkit-animation: closeMenuAnime 1s forwards;
+  animation: closeMenuAnime 1s forwards;
+}
+
+@-webkit-keyframes openMenuAnime {
+  0% {
+    width: 0%;
+    opacity: 0;
+  }
+
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes openMenuAnime {
+  0% {
+    width: 0%;
+    opacity: 0;
+  }
+
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes closeMenuAnime {
+  0% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  100% {
+    width: 0%;
+    opacity: 0;
+  }
+}
+
+@keyframes closeMenuAnime {
+  0% {
+    opacity: 1;
+    width: 100%;
+  }
+
+  100% {
+    opacity: 0;
+    width: 0%;
   }
 }

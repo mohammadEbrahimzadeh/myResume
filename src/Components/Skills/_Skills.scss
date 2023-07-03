@@ -1,10 +1,15 @@
 .Skills {
   .right {
-    ul {
-      background-color: rgba(2, 2, 24, 0.706);
+    .rightSub {
+      background-color: rgba(59, 4, 131, 0.421);
+      border-radius: 20px;
     }
   }
   .left {
+    .leftSub {
+      background-color: rgba(59, 4, 131, 0.421);
+      border-radius: 20px;
+    }
     .viewElemHtml,
     .viewElemcss,
     .viewElemsass,

@@ -20,25 +20,28 @@ export default function MyPriject() {
 
   return (
     <>
-      <div className='MyPriject py-3 px-3 px-sm-5  d-flex flex-column gap-sm-5 gap-3 '>
-        <h1 className='text-center'> نمومه کار های من </h1>
-        <div className='col-12 d-flex gap-sm-3 gap-4 justify-content-evenly align-items-start flex-wrap'>
+      <div className="MyPriject px-sm-5 d-flex flex-column  gap-sm-5 gap-3 px-3 py-3 ">
+        <h1 className="text-center"> نمومه کار های من </h1>
+        <div className="col-12 d-flex gap-sm-3 justify-content-evenly align-items-start flex-wrap gap-4">
           {ItemSForShow
             ? ItemSForShow.map((item, index) => {
                 return (
                   <div
                     key={index}
-                    className={`${item.ClassNames} col-sm-5  col-12 projectCard  d-flex flex-column  justify-content-center align-items-center gap-3  `}>
-                    <img src={item.cover} className='w-100' alt='Loading' />
-                    <h3 className='text-end'>{item.title}</h3>
-                    <ul className='text-end   col-11 col-sm-10'>
+                    className={`${item.ClassNames} col-md-5  col-12 projectCard  d-flex flex-column  justify-content-center align-items-center gap-3  `}
+                  >
+                    <img src={item.cover} className="w-100" alt="Loading" />
+                    <h3 className="text-end">{item.title}</h3>
+                    <ul className="col-11   col-sm-10 text-end">
                       {item.technologies.map((liElm, index) => {
                         return <li key={index}>{liElm}</li>;
                       })}
                     </ul>
-                    <div className='overlayCard'>
+                    <div className="overlayCard">
                       <a href={item.link}>
-                        <button className='p-1'>{item.Completed ? "مشاهده" : " ...درحال توسعه"}</button>
+                        <button className="p-1">
+                          {item.Completed ? "مشاهده" : " ...درحال توسعه"}
+                        </button>
                       </a>
                     </div>
                   </div>
@@ -47,22 +50,24 @@ export default function MyPriject() {
             : null}
         </div>
       </div>
-      <div className=' col-12  d-flex justify-content-center  align-items-center '>
+      <div className=" col-12  d-flex justify-content-center  align-items-center ">
         <ReactPaginate
-          className='d-flex gap-sm-5 gap-3  mt-3  justify-content-center list-unstyled align-items-center rounded col-10 '
-          breakLabel='...'
-          nextLabel=''
+          className="d-flex gap-sm-5 justify-content-center  list-unstyled  align-items-center col-10 mt-3 gap-3 rounded "
+          breakLabel="..."
+          nextLabel=""
           onPageChange={(event) => {
             setPageActive(event.selected);
           }}
           pageRangeDisplayed={1}
           pageCount={pageCount}
-          previousLabel=''
+          previousLabel=""
           renderOnZeroPageCount={null}
           marginPagesDisplayed={2}
-          activeLinkClassName=' activePage'
-          pageLinkClassName='baseClassPageNaite'
-          pageClassName={" baseClassPageNaite   text-center d-flex align-items-center justify-content-evenly  "}
+          activeLinkClassName=" activePage"
+          pageLinkClassName="baseClassPageNaite"
+          pageClassName={
+            " baseClassPageNaite   text-center d-flex align-items-center justify-content-evenly  "
+          }
         />
       </div>{" "}
     </>
