@@ -22,42 +22,77 @@ export default function Skills() {
           <div className="col-10 ">
             {" "}
             <h3 className="text-start">Html</h3>
-            <div className={` ${inView ? "viewElemHtml" : ""}`}> </div>{" "}
+            <div className={`animeProgress ${inView ? "viewElemHtml" : ""}`}>
+              {" "}
+            </div>{" "}
           </div>{" "}
           <div className="col-10 ">
             {" "}
             <h3>Css</h3>
-            <div className={` ${inView ? "viewElemcss" : ""}`}></div>{" "}
+            <div
+              className={`animeProgress ${inView ? "viewElemcss" : ""}`}
+            ></div>{" "}
           </div>{" "}
           <div className="col-10 ">
             {" "}
             <h3>Sass</h3>
-            <div className={` ${inView ? "viewElemsass" : ""}`}></div>{" "}
+            <div
+              className={`animeProgress ${inView ? "viewElemsass" : ""}`}
+            ></div>{" "}
           </div>
           <div className="col-10 ">
             {" "}
             <h3>BootStrap</h3>
-            <div className={` ${inView ? "viewElemBootsratp" : ""}`}></div>{" "}
+            <div
+              className={`animeProgress ${inView ? "viewElemBootsratp" : ""}`}
+            ></div>{" "}
           </div>
           <div className="col-10 ">
             {" "}
             <h3>JS</h3>
-            <div className={` ${inView ? "viewElemjs" : ""}`}></div>{" "}
+            <div
+              className={`animeProgress ${inView ? "viewElemjs" : ""}`}
+            ></div>{" "}
           </div>{" "}
           <div className="col-10 ">
             {" "}
             <h3>swiper</h3>
-            <div className={` ${inView ? "viewElemSwiper" : ""}`}></div>{" "}
+            <div
+              className={`animeProgress ${inView ? "viewElemSwiper" : ""}`}
+            ></div>{" "}
           </div>{" "}
           <div className="col-10 ">
             {" "}
             <h3>Axios</h3>
-            <div className={` ${inView ? "viewElemAxios" : ""}`}></div>{" "}
+            <div
+              className={`animeProgress ${inView ? "viewElemAxios" : ""}`}
+            ></div>{" "}
           </div>{" "}
           <div className="col-10 ">
             {" "}
             <h3>React</h3>
-            <div className={` ${inView ? "viewElemReact" : ""}`}></div>{" "}
+            <div
+              className={`animeProgress ${inView ? "viewElemReact" : ""}`}
+            ></div>{" "}
+          </div>
+          <div className="col-10 ">
+            {" "}
+            <h3>Redux</h3>
+            <div
+              className={`animeProgress ${inView ? "viewElemRedux" : ""}`}
+            ></div>{" "}
+          </div>
+          <div className="col-10 ">
+            <h3>Regex</h3>
+            <div
+              className={`animeProgress ${inView ? "viewElemRegex" : ""}`}
+            ></div>{" "}
+          </div>
+          <div className="col-10 ">
+            <h3>Typescript</h3>
+            <div
+              className={`animeProgress ${inView ? "viewElemTypescript" : ""}`}
+            ></div>{" "}
           </div>
         </div>
       </div>

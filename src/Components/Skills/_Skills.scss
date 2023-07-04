@@ -10,14 +10,7 @@
       background-color: rgba(59, 4, 131, 0.421);
       border-radius: 20px;
     }
-    .viewElemHtml,
-    .viewElemcss,
-    .viewElemsass,
-    .viewElemBootsratp,
-    .viewElemjs,
-    .viewElemAxios,
-    .viewElemSwiper,
-    .viewElemReact {
+    .animeProgress {
       height: 4px;
       transition: 1s;
       -webkit-animation-name: viewElem;
@@ -36,9 +29,11 @@
     .viewElemsass {
       background-color: rgb(189, 35, 60);
     }
-    .viewElemBootsratp,
-    .viewElemAxios {
+    .viewElemBootsratp {
       background-color: rgb(98, 5, 185);
+    }
+    .viewElemAxios {
+      background-color: orange;
     }
     .viewElemjs {
       background-color: rgb(214, 228, 18);
@@ -46,6 +41,15 @@
     .viewElemSwiper,
     .viewElemReact {
       background-color: rgb(35, 56, 245);
+    }
+    .viewElemRedux {
+      background-color: rgb(151, 12, 182);
+    }
+    .viewElemRegex {
+      background-color: orangered;
+    }
+    .viewElemTypescript {
+      background-color: #3178c6;
     }
   }
 

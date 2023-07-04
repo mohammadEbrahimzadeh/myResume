@@ -122,14 +122,7 @@ button:hover {
   background-color: rgba(59, 4, 131, 0.421);
   border-radius: 20px;
 }
-.Skills .left .viewElemHtml,
-.Skills .left .viewElemcss,
-.Skills .left .viewElemsass,
-.Skills .left .viewElemBootsratp,
-.Skills .left .viewElemjs,
-.Skills .left .viewElemAxios,
-.Skills .left .viewElemSwiper,
-.Skills .left .viewElemReact {
+.Skills .left .animeProgress {
   height: 4px;
   transition: 1s;
   -webkit-animation-name: viewElem;
@@ -148,9 +141,11 @@ button:hover {
 .Skills .left .viewElemsass {
   background-color: rgb(189, 35, 60);
 }
-.Skills .left .viewElemBootsratp,
-.Skills .left .viewElemAxios {
+.Skills .left .viewElemBootsratp {
   background-color: rgb(98, 5, 185);
+}
+.Skills .left .viewElemAxios {
+  background-color: orange;
 }
 .Skills .left .viewElemjs {
   background-color: rgb(214, 228, 18);
@@ -158,6 +153,15 @@ button:hover {
 .Skills .left .viewElemSwiper,
 .Skills .left .viewElemReact {
   background-color: rgb(35, 56, 245);
+}
+.Skills .left .viewElemRedux {
+  background-color: rgb(151, 12, 182);
+}
+.Skills .left .viewElemRegex {
+  background-color: orangered;
+}
+.Skills .left .viewElemTypescript {
+  background-color: #3178c6;
 }
 @-webkit-keyframes viewElem {
   0% {

@@ -109,7 +109,7 @@ const MyProjects = [
       "React.Js Modular",
       "SPA Page",
     ],
-    cover: "/images/Insurance-dey.png",
+    cover: process.env.PUBLIC_URL +"/images/Insurance-dey.png",
     link: "https://insurance-dey.pages.dev/",
     Completed: true,
     ClassNames: "Insurance-dey",
