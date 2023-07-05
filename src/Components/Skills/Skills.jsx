@@ -129,7 +129,7 @@ export default function Skills() {
           >
             <li className=" w-100 gap-sm-3 d-flex flex-column">
               <h3 className="text-end">به صورت فریلنسری</h3>
-              <p className="text-end ">بهمن 1399 - تا اکنون</p>
+              <p className="text-end ">شهریور 1401 - تا اکنون</p>
             </li>{" "}
             <li className=" w-100 gap-sm-3 d-flex flex-column">
               <h3 className="text-end">کمک منتور ری اکت اکادمی سبزلرن</h3>

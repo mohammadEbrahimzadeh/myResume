@@ -111,7 +111,7 @@ button:hover {
   color: rgb(24, 154, 240);
 }
 .AboutMe .aboutMeCOntent {
-  line-height: 2.5rem;
+  line-height: 2;
 }
 .AboutMe .right img {
   border-radius: 50%;
