@@ -96,28 +96,50 @@ export default function Skills() {
           </div>
         </div>
       </div>
-      <div className="right col-12 col-md-6 ">
-        <h2 className="pb-3 text-center">تحصیلات من</h2>{" "}
-        <div
-          className="list-unstyled rightSub w-100 gap-sm-4 d-flex flex-column
+      <div className=" col-12 col-md-6 ">
+        <div className="col-12 right pb-3 text-center">
+          <h2 className="pb-3 text-center">تحصیلات من</h2>{" "}
+          <div
+            className="list-unstyled rightSub w-100 gap-sm-4 d-flex flex-column
           align-items-center justify-content-center gap-2 p-4"
-        >
-          <li className=" w-100 gap-sm-3 d-flex flex-column">
-            <h3 className="text-end">دیپلم کامپیوتر</h3>
-            <p className="text-end ">تهران - هنرستان پایگاه انقلاب</p>
-          </li>{" "}
-          <li className=" w-100 gap-sm-3 d-flex flex-column">
-            <h3 className="text-end">کاردانی کامپیوتر</h3>
-            <p className="w-100 text-end">
-              کرج - دانشگاه فنی حرفه ای شهید بهشتی
-            </p>
-          </li>
-          <li className=" w-100 gap-sm-3 d-flex flex-column">
-            <h3 className="text-end">دانشجو کارشناسی کامپیوتر</h3>
-            <p className="w-100 text-end">
-              کرج - دانشگاه فنی حرفه ای شهید بهشتی
-            </p>
-          </li>
+          >
+            <li className=" w-100 gap-sm-3 d-flex flex-column">
+              <h3 className="text-end">دیپلم کامپیوتر</h3>
+              <p className="text-end ">تهران - هنرستان پایگاه انقلاب</p>
+            </li>{" "}
+            <li className=" w-100 gap-sm-3 d-flex flex-column">
+              <h3 className="text-end">کاردانی کامپیوتر</h3>
+              <p className="w-100 text-end">
+                کرج - دانشگاه فنی حرفه ای شهید بهشتی
+              </p>
+            </li>
+            <li className=" w-100 gap-sm-3 d-flex flex-column">
+              <h3 className="text-end">دانشجو کارشناسی کامپیوتر</h3>
+              <p className="w-100 text-end">
+                کرج - دانشگاه فنی حرفه ای شهید بهشتی
+              </p>
+            </li>
+          </div>
+        </div>
+        <div className="col-12 right mt-3 pb-3 text-center">
+          <h2 className="pb-3 text-center"> سوابق کاری</h2>{" "}
+          <div
+            className="list-unstyled rightSub w-100 gap-sm-4 d-flex flex-column
+          align-items-center justify-content-center gap-2 p-4"
+          >
+            <li className=" w-100 gap-sm-3 d-flex flex-column">
+              <h3 className="text-end">به صورت فریلنسری</h3>
+              <p className="text-end ">بهمن 1399 - تا اکنون</p>
+            </li>{" "}
+            <li className=" w-100 gap-sm-3 d-flex flex-column">
+              <h3 className="text-end">کمک منتور ری اکت اکادمی سبزلرن</h3>
+              <p className="text-end ">خرداد 1402 - تا اکنون</p>
+            </li>{" "}
+            <li className=" w-100 gap-sm-3 d-flex flex-column">
+              <h3 className="text-end">منتورینگ خصوصی فرانت اند</h3>
+              <p className="text-end ">تیر 1402 - تا اکنون</p>
+            </li>{" "}
+          </div>
         </div>
       </div>
     </div>

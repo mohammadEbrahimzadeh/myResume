@@ -8,7 +8,7 @@ function Header() {
           {" "}
           به وبسایت من خوش آمدید
         </h1>
-        <h2 className="text-sm-end m-0 p-0 text-center"> K2</h2>
+        <h2 className="text-sm-end m-0 p-0 text-center"> محمد ابراهیم زاده</h2>
         <p className="text-sm-end  m-0 p-0 text-center">
           من یک توسعه دهنده فرانت هستم
         </p>
