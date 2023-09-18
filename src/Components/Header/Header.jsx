@@ -18,7 +18,7 @@ function Header() {
         </p>
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1BAfkILn9My3Wb3QfnlNhkWGLqwehCfbx/view?usp=drivesdk"
+          href="https://drive.google.com/file/d/1BojVZfbhCkHcPGRWK7P8Qq4Gwto1NRCY/view?usp=drivesdk"
         >
           <button className="p-2">دریافت رزومه</button>
         </a>
