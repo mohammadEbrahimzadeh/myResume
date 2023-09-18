@@ -147,6 +147,9 @@ button:hover {
 .Skills .left .viewElemBootsratp {
   background-color: rgb(98, 5, 185);
 }
+.Skills .left .viewElemMaterialUi {
+  background-color: aqua;
+}
 .Skills .left .viewElemAxios {
   background-color: orange;
 }
@@ -165,6 +168,9 @@ button:hover {
 }
 .Skills .left .viewElemTypescript {
   background-color: #3178c6;
+}
+.Skills .left .viewElemGithub {
+  background-color: rgb(85, 85, 85);
 }
 @-webkit-keyframes viewElem {
   0% {

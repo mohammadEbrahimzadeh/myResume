@@ -49,6 +49,20 @@ export default function Skills() {
           </div>
           <div className="col-10 ">
             {" "}
+            <h3>Material Ui Components</h3>
+            <div
+              className={`animeProgress ${inView ? "viewElemMaterialUi " : ""}`}
+            ></div>{" "}
+          </div>
+          <div className="col-10 ">
+            {" "}
+            <h3>Tailwind</h3>
+            <div
+              className={`animeProgress ${inView ? "viewElemcss" : ""}`}
+            ></div>{" "}
+          </div>{" "}
+          <div className="col-10 ">
+            {" "}
             <h3>JS</h3>
             <div
               className={`animeProgress ${inView ? "viewElemjs" : ""}`}
@@ -56,7 +70,7 @@ export default function Skills() {
           </div>{" "}
           <div className="col-10 ">
             {" "}
-            <h3>swiper</h3>
+            <h3>Swiper</h3>
             <div
               className={`animeProgress ${inView ? "viewElemSwiper" : ""}`}
             ></div>{" "}
@@ -89,9 +103,21 @@ export default function Skills() {
             ></div>{" "}
           </div>
           <div className="col-10 ">
+            <h3>Formik & Yup</h3>
+            <div
+              className={`animeProgress ${inView ? "viewElemTypescript" : ""}`}
+            ></div>{" "}
+          </div>
+          <div className="col-10 ">
             <h3>Typescript</h3>
             <div
               className={`animeProgress ${inView ? "viewElemTypescript" : ""}`}
+            ></div>{" "}
+          </div>
+          <div className="col-10 ">
+            <h3>Git & Github</h3>
+            <div
+              className={`animeProgress ${inView ? "viewElemGithub" : ""}`}
             ></div>{" "}
           </div>
         </div>
@@ -128,16 +154,20 @@ export default function Skills() {
           align-items-center justify-content-center gap-2 p-4"
           >
             <li className=" w-100 gap-sm-3 d-flex flex-column">
-              <h3 className="text-end">به صورت فریلنسری</h3>
-              <p className="text-end ">شهریور 1401 - تا اکنون</p>
+              <h3 className="text-end">تدریس پایه یازدهم فنی درس طراحی وب</h3>
+              <p className="text-end ">مهر 1402 - تا اکنون</p>
+            </li>{" "}
+            <li className=" w-100 gap-sm-3 d-flex flex-column">
+              <h3 className="text-end">منتورینگ خصوصی فرانت اند</h3>
+              <p className="text-end ">تیر 1402 - شهریور 1402</p>
             </li>{" "}
             <li className=" w-100 gap-sm-3 d-flex flex-column">
               <h3 className="text-end">کمک منتور ری اکت اکادمی سبزلرن</h3>
               <p className="text-end ">خرداد 1402 - تا اکنون</p>
             </li>{" "}
             <li className=" w-100 gap-sm-3 d-flex flex-column">
-              <h3 className="text-end">منتورینگ خصوصی فرانت اند</h3>
-              <p className="text-end ">تیر 1402 - تا اکنون</p>
+              <h3 className="text-end">به صورت فریلنسری</h3>
+              <p className="text-end ">شهریور 1401 - تا اکنون</p>
             </li>{" "}
           </div>
         </div>

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/myResume/static/css/main.15508381.css",
-    "main.js": "/myResume/static/js/main.fdbdf684.js",
+    "main.css": "/myResume/static/css/main.30fd28ea.css",
+    "main.js": "/myResume/static/js/main.bfa5b5ab.js",
     "static/media/2.jpg": "/myResume/static/media/2.881343fcb9e6840f86bf.jpg",
     "static/media/ebrahimzadehk2_.jpg": "/myResume/static/media/ebrahimzadehk2_.319f116b0c56ada6d056.jpg",
     "static/media/back.jpg": "/myResume/static/media/back.6cb0cbfedc549cd60c26.jpg",
     "static/media/IRANSansX-Medium.woff": "/myResume/static/media/IRANSansX-Medium.8e098ba93873ea906446.woff",
     "index.html": "/myResume/index.html",
-    "main.15508381.css.map": "/myResume/static/css/main.15508381.css.map",
-    "main.fdbdf684.js.map": "/myResume/static/js/main.fdbdf684.js.map"
+    "main.30fd28ea.css.map": "/myResume/static/css/main.30fd28ea.css.map",
+    "main.bfa5b5ab.js.map": "/myResume/static/js/main.bfa5b5ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.15508381.css",
-    "static/js/main.fdbdf684.js"
+    "static/css/main.30fd28ea.css",
+    "static/js/main.bfa5b5ab.js"
   ]
 }

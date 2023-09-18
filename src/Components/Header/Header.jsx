@@ -16,7 +16,10 @@ function Header() {
           من خدمات طراحی و توسعه برای مشتریان در هر مقیاس ارائه می دهم. متخصص در
           ایجاد وب سایت ها، خدمات وب و فروشگاه های آنلاین زیبا و مدرن
         </p>
-        <a href="https://uupload.ir/view/4_5816907571725865046_5ozf.pdf">
+        <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1BAfkILn9My3Wb3QfnlNhkWGLqwehCfbx/view?usp=drivesdk"
+        >
           <button className="p-2">دریافت رزومه</button>
         </a>
       </div>
