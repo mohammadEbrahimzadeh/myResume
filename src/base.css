@@ -121,6 +121,14 @@ button:hover {
   background-color: rgba(59, 4, 131, 0.421);
   border-radius: 20px;
 }
+.Skills .right .rightSub p,
+.Skills .right .rightSub h3 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.Skills .right .rightSub .JoBItemTitle {
+  line-height: 1.5;
+}
 .Skills .left .leftSub {
   background-color: rgba(59, 4, 131, 0.421);
   border-radius: 20px;

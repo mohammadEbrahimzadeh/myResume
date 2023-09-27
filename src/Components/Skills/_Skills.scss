@@ -3,6 +3,14 @@
     .rightSub {
       background-color: rgba(59, 4, 131, 0.421);
       border-radius: 20px;
+      p,
+      h3 {
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      .JoBItemTitle {
+        line-height: 1.5;
+      }
     }
   }
   .left {

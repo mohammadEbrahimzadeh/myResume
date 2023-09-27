@@ -151,22 +151,34 @@ export default function Skills() {
           <h2 className="pb-3 text-center"> سوابق کاری</h2>{" "}
           <div
             className="list-unstyled rightSub w-100 gap-sm-4 d-flex flex-column
-          align-items-center justify-content-center gap-2 p-4"
+          align-items-center justify-content-center gap-3 px-3 py-4"
           >
-            <li className=" w-100 gap-sm-3 d-flex flex-column">
-              <h3 className="text-end">تدریس پایه یازدهم فنی درس طراحی وب</h3>
+            <li className=" w-100  d-flex flex-column  border-1  border-end  gap-3  border-white px-2  ">
+              <h3 className="JoBItemTitle  text-end">
+                تدریس پایه یازدهم فنی درس مدیریت سیستم های اطلاعاتی و طراحی وب
+              </h3>
+              <p className="fs-6  text-end">هنرستان فنی و حرفه ای بحارالعلوم</p>
               <p className="text-end ">مهر 1402 - تا اکنون</p>
             </li>{" "}
-            <li className=" w-100 gap-sm-3 d-flex flex-column">
-              <h3 className="text-end">منتورینگ خصوصی فرانت اند</h3>
+            <li className=" w-100  d-flex flex-column  border-1  border-end  gap-3  border-white px-2  ">
+              <h3 className="JoBItemTitle  text-end">
+                تدریس پایه یازدهم فنی درس تولید محتوای الکترونیک و برنامه سازی
+              </h3>
+              <p className="fs-6  text-end">هنرستان فنی و حرفه ای بحارالعلوم</p>
+              <p className="text-end ">مهر 1402 - تا اکنون</p>
+            </li>{" "}
+            <li className=" w-100  d-flex flex-column  border-1  border-end  gap-3  border-white px-2  ">
+              <h3 className="JoBItemTitle  text-end">منتورینگ</h3>
+              <p className="fs-6  text-end">تدریس خصوصی</p>
               <p className="text-end ">تیر 1402 - شهریور 1402</p>
             </li>{" "}
-            <li className=" w-100 gap-sm-3 d-flex flex-column">
-              <h3 className="text-end">کمک منتور ری اکت اکادمی سبزلرن</h3>
+            <li className=" w-100  d-flex flex-column  border-1  border-end  gap-3  border-white px-2  ">
+              <h3 className="JoBItemTitle  text-end"> کمک منتور ری اکت</h3>
+              <p className="fs-6  text-end">آکادمی سبزلرن</p>
               <p className="text-end ">خرداد 1402 - تا اکنون</p>
             </li>{" "}
-            <li className=" w-100 gap-sm-3 d-flex flex-column">
-              <h3 className="text-end">به صورت فریلنسری</h3>
+            <li className=" w-100 gap-sm-3 d-flex flex-column  border-1  border-end      border-white  px-2 ">
+              <h3 className="JoBItemTitle text-end">به صورت فریلنسری</h3>
               <p className="text-end ">شهریور 1401 - تا اکنون</p>
             </li>{" "}
           </div>
