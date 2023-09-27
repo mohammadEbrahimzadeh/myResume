@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/myResume/static/css/main.f2083678.css",
+    "main.js": "/myResume/static/js/main.f4e544ae.js",
+    "static/media/2.jpg": "/myResume/static/media/2.881343fcb9e6840f86bf.jpg",
+    "static/media/ebrahimzadehk2_.jpg": "/myResume/static/media/ebrahimzadehk2_.319f116b0c56ada6d056.jpg",
+    "static/media/back.jpg": "/myResume/static/media/back.6cb0cbfedc549cd60c26.jpg",
+    "static/media/IRANSansX-Medium.woff": "/myResume/static/media/IRANSansX-Medium.8e098ba93873ea906446.woff",
+    "index.html": "/myResume/index.html",
+    "main.f2083678.css.map": "/myResume/static/css/main.f2083678.css.map",
+    "main.f4e544ae.js.map": "/myResume/static/js/main.f4e544ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2083678.css",
+    "static/js/main.f4e544ae.js"
+  ]
+}
